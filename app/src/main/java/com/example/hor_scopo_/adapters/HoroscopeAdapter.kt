@@ -1,4 +1,4 @@
-package com.example.hor_scopo_
+package com.example.hor_scopo_.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import org.jetbrains.annotations.Debug
+import com.example.hor_scopo_.R
+import com.example.hor_scopo_.data.Horoscope
 
 class HoroscopeAdapter(
     val items: List<Horoscope>,

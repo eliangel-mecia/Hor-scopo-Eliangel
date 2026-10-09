@@ -12,8 +12,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hor_scopo_.Horoscope
-import com.example.hor_scopo_.HoroscopeAdapter
+import com.example.hor_scopo_.data.Horoscope
+import com.example.hor_scopo_.adapters.HoroscopeAdapter
 import com.example.hor_scopo_.R
 
 class MainActivity : AppCompatActivity() {
